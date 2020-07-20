@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Outpost DOM</title>
+
+    <style>
+        .red {
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <h1>hello, world</h1>
+    </div>
+
+    <script src="libs/outpost.min.js"></script>
+    <script src="dest/outpost-dom.min.js"></script>
+
+    <script>
+        const _ = new Outpost();
+        const $ = _.dom;
+        $(function() {
+            $("div").render(`<div>
+                <h1 class="red">hello, world <span>hello</span></h1>
+            </div>`); 
+        });
+        
+    </script>
+</body>
+</html>
