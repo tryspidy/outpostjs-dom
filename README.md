@@ -5,7 +5,7 @@ Clone the github repo `git clone https://github.com/tryspidy/outpostjs-dom.git` 
 Or use CDN link
 
 ```html
-<script src="https://cdn.jsdelivr.net/gh/tryspidy/outpostjs-dom/dest/outpostjs-dom.min.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/tryspidy/outpostjs-dom/dest/outpost-dom.min.js"></script>
 ```
 
 [![Build Status](https://travis-ci.org/tryspidy/outpostjs-dom.svg?branch=master)](https://travis-ci.org/tryspidy/outpostjs-dom)
